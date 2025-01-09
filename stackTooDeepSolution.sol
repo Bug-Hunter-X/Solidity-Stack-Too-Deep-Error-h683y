@@ -1,0 +1,1 @@
+function stackTooDeepSolution(uint256 _value) public returns (uint256) { uint256[] memory j = new uint256[](_value); for (uint256 i = 0; i < _value; i++) { j[i] = i * 2; } }
