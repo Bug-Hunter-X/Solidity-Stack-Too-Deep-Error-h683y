@@ -1,0 +1,1 @@
+function stackTooDeep(uint256 _value) public returns (uint256) { for (uint256 i = 0; i < _value; i++) { uint256 j = i * 2; } }
